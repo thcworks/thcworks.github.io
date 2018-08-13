@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    {% include meta.html %}    
+    {% include opengraph.html %}
+
+    <title>{{ page.title | xml_escape }}</title>    
+  </head>
+
+  <body>
+    <div class="home">
+      {% include cookies.html %}
+
+      {% include banner.html %}
+
+      <div class="wrapper blog-post-content">
+        <h2>{{ page.title | xml_escape }}</h2><br />
+        <h3>{{ page.date | date: "%A, %-d %B %Y" }}</h3>
+  
+        <div class="main-post-content">
+          {{ content }}
+        </div>
+
+        {% include signature.html %}
+      </div>
+    </div>
+  </body>
+</html>

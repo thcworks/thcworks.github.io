@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    {% include meta.html %}    
+    {% include opengraph.html %}
+
+    <title>{{ page.title | xml_escape }}</title>    
+  </head>
+
+  <body>
+    <div class="home">
+      {% include cookies.html %}
+      
+      {{ content }}
+    </div>
+  </body>
+</html>

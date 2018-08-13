@@ -4,3 +4,35 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+plugins:
+  - jekyll-redirect-from
+
+permalink: "/blog/:title"
+
+title: "The Honeycomb Works"
+
+authors:
+  ben:
+    name: "Ben Waldman"
+    image: "/imagecache/bw-headshot-1-crop-c-small-png_80_80_b0_s0_5.png"
+    twitter: LandD_Ben
+  caroline:
+    name: "Caroline Marsh"
+    image: "/imagecache/cm-headshot-1-crop-circle-a-small-png_80_80_b0_s0_5.png"
+    twitter: carolinemarsh
+  melissa:
+    name: "Melissa Sabella"
+    image: "/imagecache/ms-pic1-circle-b-small-png_80_80_b0_s0_5.png"
+    twitter: msabella
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      meta_keywords: ""
+      meta_description: |
+        Driving behaviour change through learning design, digital tools,
+        coaching, and yes (sometimes) even courses.
+      meta_robots: "INDEX, FOLLOW"
+      meta_googlebot: "INDEX, FOLLOW"

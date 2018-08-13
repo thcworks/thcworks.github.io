@@ -1,0 +1,36 @@
+---
+layout: default
+title: "The Honeycomb Works Blog"
+meta_keywords: "The Honeycomb Works Blog, Welcome to the blog for The Honeycomb Works. Keep up to date with what&#39;s going on in our world and beyond., Ben Waldman, Caroline Marsh, Melissa Sabella, "
+meta_description: "The Honeycomb Works Blog - Welcome to the blog for The Honeycomb Works. Keep up to date with what’s going on in our world and beyond. by Ben Waldman, Caroline Marsh, Melissa Sabella, "  
+---
+<div class="texture-lines">
+  <div class="wrapper blog-list">
+    <a href="/" class="logo-img"><img src="/img/logo-img.png" /></a>
+
+    <div class="blog-socials social-ref">
+      <a href="https://twitter.com/thcworks" target="_blank"><img src="/img/icon-twitter-gray.png"></a>         
+    </div>
+    
+    <h2>Welcome to the blog for The Honeycomb Works. Keep up to date with what&#8217;s going on in our world and beyond.</h2>
+
+    <div class="blog-list-gallery">
+      {% for post in site.posts %}
+        {% assign author = site.authors[post.author] %}
+        <a href="{{ post.url }}" class="blog-list-gallery-item">
+          <img src="{{ post.image }}" alt="{{ post.title | xml_escape }}">
+          <div>
+            <span>{{ post.title | xml_escape }}</span>
+            <span>{{ author.name | xml_escape }} - {{ post.date | date: "%A, %-d %B %Y" }}</span>
+          </div>
+        </a>
+      {% endfor %}
+
+      <div class="clear-both"></div>
+      <div class="clear-both"></div>
+    </div>
+
+    <h3>Have something you’d like to talk to us about?</h3>
+    <a href="mailto:hi@thehoneycombworks.com" class="button-email">Email us for more information</a>
+  </div>
+</div>

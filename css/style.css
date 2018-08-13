@@ -536,7 +536,7 @@ a {
 }
 
 .whatis-item h3 {
-  font-family:'Proxima N W01 Smbd' !important; 
+  font-family:'Proxima N W01 Smbd' !important;
   color: white;
   font-size: 20px;
   margin: 20px auto 20px auto;
@@ -799,7 +799,7 @@ a {
    color: black !important;
 }
 
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
    color: black !important;
 }
 
@@ -888,17 +888,22 @@ a {
 
 .blog-post-content ul, .blog-post-content ol
 {
-    max-width:650px;
-    margin: 25px auto;
-    line-height: 1.6;
-    font-size: 16px;
+  max-width:650px;
+  margin: 20px auto;
+  line-height: 1.6;
+  font-size: 16px;
   color: #444;
+  padding: 0;
+}
+
+.blog-post-content ul {
+  list-style: disc outside;
 }
 
 .blog-post-content li
 {
     margin-bottom:10px;
-    
+    margin-left: 30px;
 }
 
 .blog-post-content p {
@@ -906,7 +911,7 @@ a {
   color: #444;
   line-height: 1.6;
   max-width: 650px;
-  margin: 25px auto;
+  margin: 20px auto;
 }
 
 .blog-post-content p span {
@@ -921,7 +926,7 @@ a {
 }
 
 .signature {
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 .signature img {
@@ -1335,7 +1340,7 @@ a {
   }
 
   .img-whatis-schema {
-    max-width: 80%;  
+    max-width: 80%;
     margin: 40px auto;
   }
 
@@ -1380,7 +1385,7 @@ a {
 
   .team-item {
     margin-bottom: 50px;
-    
+
   }
 
 
