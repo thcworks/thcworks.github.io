@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Creating Inclusive Cultures: What To Do and What To Ditch"
-image: "/imagecache/blogs_purplesquare-jpg_550_320_b0_s0_5.jpg"
-banner: "/imagecache/blogs_purplesquare-jpg_-1_-1_b0_s0_10.jpg"
+meta_keyword: "welcome, intro"
+meta_description: "Need to create a more inclusive culture? Here are three things you can do that will have an impact."
+image: purplesquare
 author: melissa
+tags: [melissa]
 published: true
 date: 2018-07-10 01:00:00 +01:00
+redirect_from:
+  - /blog/thw/creating-inclusive-cultures-what-to-do-and-what-to-ditch.aspx.html
 ---
 When the very nice people at [KNect365][1] invited me to speak about diversity and inclusivity, I was pretty excited to offer my take. The conventional wisdom surrounding these ideas can be damaging, and even well intentioned efforts can do more harm than good.
 

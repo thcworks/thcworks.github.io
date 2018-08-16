@@ -15,14 +15,17 @@ title: "The Honeycomb Works"
 authors:
   ben:
     name: "Ben Waldman"
+    permalink: "ben-waldman"
     image: "/imagecache/bw-headshot-1-crop-c-small-png_80_80_b0_s0_5.png"
     twitter: LandD_Ben
   caroline:
     name: "Caroline Marsh"
+    permalink: "caroline-marsh"
     image: "/imagecache/cm-headshot-1-crop-circle-a-small-png_80_80_b0_s0_5.png"
     twitter: carolinemarsh
   melissa:
     name: "Melissa Sabella"
+    permalink: "melissa-sabella"
     image: "/imagecache/ms-pic1-circle-b-small-png_80_80_b0_s0_5.png"
     twitter: msabella
 

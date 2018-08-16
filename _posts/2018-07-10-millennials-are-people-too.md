@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Millennials Are People Too"
-image: "/imagecache/blogs_investigation-lego-credit-png_550_320_b0_s0_5.png"
-banner: "/imagecache/blogs_investigation-lego-credit-png_-1_-1_b0_s0_10.png"
+meta_keyword: "welcome, intro"
+meta_description: "Caroline Marsh examines the evidence and finds there isn't much substance to much of the Millennial Myths. Learn the facts and what to do about it."
+image: investigation
 author: caroline
+tags: [caroline]
 published: true
 date: 2018-07-10 00:00:00 +01:00
+redirect_from:
+  - /blog/thw/millennials-are-people-too.aspx.html
 ---
 Last week a baby boomer asked me to explain millennials to her. Later, I was invited to two separate networking events with the word millennial in the title. I’ve read repeatedly that by 2020, 50% of the workforce will be made up of millennials. It seems that the obsession with millennials and how to handle them won’t be going away any time soon.
 

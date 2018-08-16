@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "But Why a Honeycomb?"
-image: "/imagecache/justoutline-yellow-png_550_320_b0_s0_5.png"
-banner: "/imagecache/justoutline-yellow-png_-1_-1_b0_s0_10.png"
+meta_keyword: "honeycomb, name, biomimetics, science"
+meta_description: "Biomimetics and data visualisation through The Honeycomb."
+image: justoutline
 author: melissa
+tags: [melissa]
 published: true
 date: 2016-11-28 00:00:00 +00:00
+redirect_from:
+  - /blog/thw/but-why-a-honeycomb-2.aspx.html
 ---
 It’s not because we are obsessed with bees. (We are, a bit, but that came after.)
 

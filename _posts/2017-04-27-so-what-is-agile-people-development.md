@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "So, What is Agile People Development?"
-image: "/imagecache/justoutline-yellow-png_550_320_b0_s0_5.png"
-banner: "/imagecache/justoutline-yellow-png_-1_-1_b0_s0_10.png"
+meta_keyword: "welcome, intro"
+meta_description: "Melissa Sabella explains how to apply agile methodologies to people development."
+image: justoutline
 author: melissa
+tags: [melissa]
 published: true
 date: 2017-04-27 00:00:00 +01:00
+redirect_from:
+  - /blog/thw/so-what-is-agile-people-development.aspx.html
 ---
 <p><iframe width="400" height="250" src="https://www.youtube.com/embed//dXFX20BYoCI" frameborder="0" allowfullscreen=""></iframe></p>
 

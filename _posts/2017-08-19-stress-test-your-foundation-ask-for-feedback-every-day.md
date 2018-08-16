@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Stress Test Your Foundation - Ask for Feedback Every Day"
-image: "/imagecache/blueblock3-png_550_320_b0_s0_5.png"
-banner: "/imagecache/blueblock3-png_-1_-1_b0_s0_10.png"
+meta_keyword: "welcome, intro"
+meta_description: "Melissa Sabella discusses the value of asking for feedback from those around you on a daily basis."
+image: blueblock
 author: melissa
+tags: [melissa]
 published: true
 date: 2017-08-19 00:00:00 +01:00
+redirect_from:
+  - /blog/thw/stress-test-your-foundation-ask-for-feedback-every-day.aspx.html
 ---
 (Originally published here - [wildfigsolutions.co.uk][1])
 

@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "The Problem With Learning"
-image: "/imagecache/blueblock3-png_550_320_b0_s0_5.png"
-banner: "/imagecache/blueblock3-png_-1_-1_b0_s0_10.png"
+meta_keyword: "learning, development, motivation, alignment, training, change, behaviour, impact, performance"
+meta_description: "The Problem with Learning. In L&D, we still focus largely on learning, not development. And learning without adequate development won’t create impact. The goal is changing behaviour to improve performance. But we generally don’t talk about behavioural change. And real change rarely happens."
+image: blueblock
 author: ben
+tags: [ben]
 published: true
 date: 2016-12-09 00:00:00 +00:00
+redirect_from:
+  - /blog/thw/the-problem-with-learning.aspx.html
 ---
 15 years ago, I delivered a delegation workshop to some hungry new managers. At the close, a broad smile spread across my face as I basked in the glory of the glowing feedback; Vin, a particularly motivated
  learner, had written:

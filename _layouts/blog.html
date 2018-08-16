@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+    {% include opengraph.html %}
+
+    <title>{{ page.title | xml_escape }}</title>
+  </head>
+
+  <body>
+    <div class="home">
+      {% include cookies.html %}
+
+      <div class="texture-lines">
+        <div class="wrapper blog-list">
+          <a href="/" class="logo-img"><img src="/img/logo-img.png" /></a>
+
+          <div class="blog-socials social-ref">
+            <a href="https://twitter.com/thcworks" target="_blank"><img src="/img/icon-twitter-gray.png"></a>
+          </div>
+
+          <h2>Welcome to the blog for The Honeycomb Works. Keep up to date with what&#8217;s going on in our world and beyond.</h2>
+
+          <div class="blog-list-gallery">
+            {{ content }}
+
+            <div class="clear-both"></div>
+            <div class="clear-both"></div>
+          </div>
+
+          <h3>Have something you’d like to talk to us about?</h3>
+          <a href="mailto:hi@thehoneycombworks.com" class="button-email">Email us for more information</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

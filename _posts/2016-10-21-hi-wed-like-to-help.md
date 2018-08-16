@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Hi. We’d Like to Help."
-image: "/imagecache/thcw-teamphoto1-crop-a-jpg_1100_320_b0_s0_5.jpg"
-banner: "/imagecache/thcw-teamphoto1-crop-a-jpg_-1_-1_b0_s0_10.jpg"
+meta_keyword: "welcome, intro"
+meta_description: "What's this all about?"
+image: teamphoto
 author: melissa
+tags: [melissa]
 published: true
 date: 2016-10-21 00:00:00 +01:00
+redirect_from:
+  - /blog/thw/hi-wed-like-to-help.aspx.html
 ---
 We’re new here. Not _new_. But new _here_. I’d like to introduce us.
 

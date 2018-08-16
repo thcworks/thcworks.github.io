@@ -1,0 +1,15 @@
+{% assign author = site.authors[post.author] %}
+
+<a href="{{ post.url }}" class="blog-list-gallery-item">
+  {% assign modulo_index = forloop.index | modulo: 3 %}
+  {% if modulo_index == 0 %}
+    <img src="/imagecache/{{ post.image }}-wide.jpg" alt="{{ post.title | xml_escape }}">
+  {% else %}
+    <img src="/imagecache/{{ post.image }}-thumb.jpg" alt="{{ post.title | xml_escape }}">
+  {% endif %}
+
+  <div>
+    <span>{{ post.title | xml_escape }}</span>
+    <span>{{ author.name | xml_escape }} - {{ post.date | date: "%A, %-d %B %Y" }}</span>
+  </div>
+</a>

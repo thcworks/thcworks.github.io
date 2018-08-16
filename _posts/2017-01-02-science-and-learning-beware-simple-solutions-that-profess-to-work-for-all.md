@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Science & Learning: Beware simple solutions that profess to work for all"
-image: "/imagecache/solidpurple4-png_1100_320_b0_s0_5.png"
-banner: "/imagecache/solidpurple4-png_-1_-1_b0_s0_10.png"
+meta_keyword: "welcome, intro"
+meta_description: "A summary of our scientific approach"
+image: solidpurple
 author: caroline
+tags: [caroline]
 published: true
 date: 2017-01-02 00:00:00 +00:00
+redirect_from:
+  - /thw/science--learning-beware-simple-solutions-that-profess-to-work-for-all.aspx.html
 ---
 Your business has a strategy and you have a strategy. You know that if you can align them it could transform your organisation.
 

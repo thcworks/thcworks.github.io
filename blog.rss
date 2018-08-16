@@ -1,0 +1,32 @@
+---
+redirect_from:
+  - /blog/thw/rss.aspx.html
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Honeycomb Works Blog</title>
+    <link><![CDATA[{{ site.url }}/blog]]></link>
+    <description><![CDATA[Welcome to the blog for The Honeycomb Works. Keep up to date with what’s going on in our world and beyond.]]></description>
+    <copyright><![CDATA[The Honeycomb Works {{ site.time | date: "%Y" }}]]></copyright>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator><![CDATA[GitHub Pages (https://pages.github.com)]]></generator>
+    <atom:link href="{{ site.url}}/blog" rel="self" type="application/rss+xml" />
+    <ttl>60</ttl>
+    <image>
+      <url>{{ site.url }}/imagecache/logo-png_200_100_b0_s0_10.png</url>
+      <link>{{ site.url}}/blog</link>
+      <title><![CDATA[The Honeycomb Works Blog]]></title>
+    </image>
+    {% for post in site.posts limit:20 %}
+    {% assign author = site.authors[post.author] %}
+    <item>
+      <title><![CDATA[{{ post.title }}]]></title>
+      <description><![CDATA[{{ post.meta_description }}]]></description>
+      <author><![CDATA[{{ author.name }}]]></author>
+      <link><![CDATA[{{ site.url}}{{ post.url }}]]></link>
+      <date>{{ post.date | date_to_rfc822 }}</date>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

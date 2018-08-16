@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "It Took a Few Kicks. How I Got Agile."
-image: "/imagecache/solidpurple4-png_1100_320_b0_s0_5.png"
-banner: "/imagecache/solidpurple4-png_-1_-1_b0_s0_10.png"
+meta_keyword: "welcome, intro"
+meta_description: "A personal story about adopting and adapting agile and the lessons learnt along the way."
+image: solidpurple
 author: melissa
+tags: [melissa]
 published: true
 date: 2017-10-18 00:00:00 +01:00
+redirect_from:
+  - /blog/thw/it-took-a-few-kicks-how-i-got-agile.aspx.html
 ---
 I signed up pretty quickly to the idea of agile.
 
